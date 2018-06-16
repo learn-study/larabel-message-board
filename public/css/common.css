@@ -1,0 +1,81 @@
+.table>tbody>tr>td{
+  border-top: 1px solid #044712;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #e9ffe9;
+}
+
+.table>thead>tr>th{
+  border-bottom: 2px solid #044712;
+}
+
+.navbar-inverse {
+  background-color: #2b8953;
+  border-color: #044712;
+}
+.navbar-inverse .navbar-brand {
+  color: #ecf1ed;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #ddffea;
+}
+.navbar-inverse .navbar-text {
+  color: #ecf1ed;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #ecf1ed;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #ddffea;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ddffea;
+  background-color: #044712;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #ddffea;
+  background-color: #044712;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #044712;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #044712;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #ecf1ed;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #ecf1ed;
+}
+.navbar-inverse .navbar-link {
+  color: #ecf1ed;
+}
+.navbar-inverse .navbar-link:hover {
+  color: #ddffea;
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf1ed;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ddffea;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ddffea;
+    background-color: #044712;
+  }
+}
